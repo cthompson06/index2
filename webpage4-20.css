@@ -1,0 +1,165 @@
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: grey;
+}
+
+.Opening {
+    color: blue;
+    width: 50%;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: left;
+    line-height: 2;
+}
+
+span {
+  background-color: white;
+}
+
+div > span {
+  background-color: DodgerBlue;
+}
+
+
+
+
+  .middle {
+      color: black;
+      width: 550px;
+      border: 1px solid black;
+      font-size: 10px;
+      text-align: center;
+      background-color: red
+}
+.links {
+    color: blue;
+    width: 550px;
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    line-height: 5;
+    font-family:cursive;
+
+}
+
+a {
+  /* Specify non-transparent defaults to certain properties,
+     allowing them to be styled with the :visited state */
+  background-color: white;
+  border: 1px solid white;
+}
+
+a:visited {
+  background-color: yellow;
+  border-color: hotpink;
+  color: hotpink;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+li {
+    color: blue;
+    width: 550px;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+li:first-of-type + li {
+  color: red;
+}
+
+
+
+h1 {
+    color: Yellow;
+    background-color: blue;
+    width: 550px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: black;
+    background-color: blue;
+    width: 550px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid black;
+}
+
+h3 {
+    color: black;
+    width: 550px;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px white;
+    text-align: center;
+
+}
+
+body {
+  width: 550px;
+  margin: 0 auto;
+  background-color: #grey;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+
+.bio {
+    color: black;
+    width: 500px;
+    font-size: 20px;
+    text-align: left;
+    background-color: grey
+}
+
+
+.FooterAddress1 {
+    color: black;
+    width: 550px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: blue
+}
+
+.FooterAddress2 {
+        color: black;
+        width: 550px;
+        border: 1px solid black;
+        font-size: 20px;
+        text-align: center;
+        background-color: blue
+}
+.FooterAddress3 {
+            color: black;
+            width: 550px;
+            border: 1px solid black;
+            font-size: 20px;
+            text-align: center;
+            background-color: blue
+}
+.FooterAddress4 {
+                color: black;
+                width: 550px;
+                border: 1px solid black;
+                font-size: 20px;
+                text-align: center;
+                background-color: blue
+}
